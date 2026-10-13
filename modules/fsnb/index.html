@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Просмотр и выбор нормативов ФСНБ-2022 для системы ВИКР">
+  <title>ФСНБ-2022 · Модуль нормативной базы</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23184763'/%3E%3Cpath d='M8 7h16v5H8zm0 7h16v5H8zm0 7h10v4H8z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../shared/ui.css">
+</head>
+<body>
+  <div class="host-preview" aria-hidden="true">
+    <div class="host-rail"></div>
+    <div class="host-main"><div></div><div></div><div></div></div>
+  </div>
+
+  <div class="fsnb-overlay" id="fsnb-overlay">
+    <section class="fsnb-dialog" role="dialog" aria-modal="true" aria-labelledby="fsnb-title">
+      <header class="module-head">
+        <div class="module-brand">
+          <div class="brand-mark" aria-hidden="true">Ф</div>
+          <div>
+            <h1 id="fsnb-title">Нормативная база ФСНБ</h1>
+            <p id="version-caption">Загрузка сведений о базе…</p>
+          </div>
+        </div>
+        <div class="head-actions">
+          <button class="outline compact" id="database-info">О базе</button>
+          <button class="outline compact" id="database-update">Обновить базу</button>
+          <button class="close" id="module-close" aria-label="Закрыть модуль">×</button>
+        </div>
+      </header>
+
+      <div class="module-toolbar">
+        <label class="search-box">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input id="global-search" type="search" autocomplete="off" placeholder="Код или наименование норматива, материала, машины">
+        </label>
+        <button class="outline" id="advanced-search">Расширенный поиск</button>
+        <div class="view-switch" role="tablist" aria-label="Вид справочника">
+          <button class="active" role="tab" aria-selected="true" data-view="norms">Нормативы</button>
+          <button role="tab" aria-selected="false" data-view="resources">Ресурсы</button>
+        </div>
+      </div>
+
+      <main class="module-workspace">
+        <aside class="pane catalog-pane">
+          <div class="pane-title">
+            <div><h2>Структура базы</h2><small id="tree-summary">—</small></div>
+            <button class="quiet" id="collapse-tree">Свернуть</button>
+          </div>
+          <div class="tree" id="catalog-tree"></div>
+        </aside>
+
+        <section class="pane results-pane">
+          <div class="pane-title results-title">
+            <div>
+              <h2 id="results-heading">Нормативы</h2>
+              <small id="results-summary">—</small>
+            </div>
+          </div>
+          <div class="result-path" id="result-path">Вся база</div>
+          <div class="results-scroll">
+            <table class="results-table">
+              <thead><tr><th class="pick-col"><input type="checkbox" id="select-all-page" aria-label="Выбрать все строки на странице"></th><th>Код</th><th>Наименование</th><th>Ед. изм.</th></tr></thead>
+              <tbody id="results-body"></tbody>
+            </table>
+            <div class="empty hidden" id="results-empty"><strong>Ничего не найдено</strong><span>Измените запрос или параметры поиска.</span></div>
+          </div>
+          <div class="pager">
+            <button class="outline compact" id="page-prev">← Назад</button>
+            <span id="page-caption">Страница 1</span>
+            <button class="outline compact" id="page-next">Далее →</button>
+          </div>
+        </section>
+
+        <section class="pane detail-pane" id="detail-pane">
+          <div class="detail-empty" id="detail-empty">
+            <div class="detail-empty-icon" aria-hidden="true">≡</div>
+            <strong>Выберите элемент</strong>
+            <span>Здесь появятся состав норматива или сведения о ресурсе.</span>
+          </div>
+          <div class="detail-content hidden" id="detail-content"></div>
+        </section>
+      </main>
+
+      <footer class="selection-bar">
+        <div>
+          <strong id="selection-count">Ничего не выбрано</strong>
+          <span id="selection-hint">Можно добавить одну строку или группу строк</span>
+        </div>
+        <div class="selection-actions">
+          <button class="outline" id="selection-clear" disabled>Очистить</button>
+          <button class="primary" id="selection-add" disabled>Добавить выбранное</button>
+        </div>
+      </footer>
+    </section>
+  </div>
+
+  <button class="module-launcher hidden" id="module-launcher">Открыть модуль ФСНБ</button>
+
+  <div class="sub-overlay hidden" id="sub-overlay">
+    <section class="sub-dialog" role="dialog" aria-modal="true" aria-labelledby="sub-title">
+      <button class="close sub-close" id="sub-close" aria-label="Закрыть">×</button>
+      <div id="sub-dialog-body"></div>
+    </section>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="data/meta.js"></script>
+  <script src="data/hierarchy.js"></script>
+  <script src="data/index.js"></script>
+  <script src="data/resources.js"></script>
+  <script src="data/tg.js"></script>
+  <script src="data/usage.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

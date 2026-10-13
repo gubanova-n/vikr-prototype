@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "title": "ФСНБ-2022",
+    "edition": "дополнение № 19",
+    "decree": "приказ Минстроя России от 12.08.2026 № 527/пр",
+    "created": "14.08.2026",
+    "priceLevel": "01.01.2022",
+    "sourceFiles": 10,
+    "normCount": 56242,
+    "resourceCount": 47576,
+    "abstractResourceCount": 37581,
+    "importedAt": "2026-09-28T19:14:23",
+    "sourceFolder": "ФСНБ-2022 (приказ Минстроя России от 12.08.2026 года № 527пр)",
+    "demo": false
+  },
+  "chunkSize": 200,
+  "chunkCount": 282,
+  "source": [
+    {
+      "name": "База ТГ.xml",
+      "bytes": 3153803,
+      "sha256": "b2426de7497562fbeeb2452f54c824140fcb7150720b33e7d13cfa1cf7cde775"
+    },
+    {
+      "name": "ГЭСН.xml",
+      "bytes": 84718850,
+      "sha256": "60cb705145e21b7c253a6ecebd8f03acb0948747e9b624918d8a204d4dcfaeae"
+    },
+    {
+      "name": "ГЭСНм.xml",
+      "bytes": 48487814,
+      "sha256": "50134cd9ed9d9f8de93bc326aa9519c9e036514dfbc6cc388b7f14f7ff687f93"
+    },
+    {
+      "name": "ГЭСНмр.xml",
+      "bytes": 918673,
+      "sha256": "7b5d88d1a4ac3976afaf1f0535fa2b075ab393f3861ea18774e783a9813bb228"
+    },
+    {
+      "name": "ГЭСНп.xml",
+      "bytes": 2858047,
+      "sha256": "b519deba0b085de54b5a91c623ec1ee647c819ea403d51d550e848f6af2e576b"
+    },
+    {
+      "name": "ГЭСНр.xml",
+      "bytes": 7688532,
+      "sha256": "3377b4ff495976b242662d27402b4164b754f5f0c0b1a8cf87ecc3b05dae18c7"
+    },
+    {
+      "name": "Ключи перехода ТГ.xml",
+      "bytes": 7768039,
+      "sha256": "9583d989f8c8684f0a6aea6fa04d3ab945ed7cca5d6fe7244125bbb772705cdf"
+    },
+    {
+      "name": "Рекомендуемая привязка поправочных коэффициентов к ФСНБ-2022 доп.19.xml",
+      "bytes": 2928007,
+      "sha256": "7d7b960c971fc9bccbfc520d9e3460d14082bf1285006b6ad05f32782f18e040"
+    },
+    {
+      "name": "ФСБЦ_Мат&Оборуд.xml",
+      "bytes": 20439424,
+      "sha256": "aefe251a263f6dd1ff68c0d6d5950cd792377ac262cf0839bd44aeb4917ee584"
+    },
+    {
+      "name": "ФСБЦ_Маш.xml",
+      "bytes": 1032314,
+      "sha256": "1eba7d0f610fa58955b9a091fdf01499211ac7acc14615e2c1cd7ee42139d784"
+    }
+  ]
+}

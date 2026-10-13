@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vids_Rab Caption="Методики 2020 года: НР по приказам 812/пр, 636/пр и 611/пр, СП по приказам 774/пр и 317/пр" ID="14" Type="Виды работ 2001г" DefaultNrspFile="НРСП Методика 2020 и 636 и 317 и 611" Default="Yes" GroupID="0">
+	<VidRab_Group Caption="Общестроительные работы" ID="0">
+		<Vid_Rab ID="10001" Category="Construction" Caption="Земляные работы, выполняемые механизированным способом"/>
+		<Vid_Rab ID="10002" Category="Construction" Caption="Земляные работы, выполняемые ручным способом"/>
+		<Vid_Rab ID="10003" Category="Construction" Caption="Земляные работы, выполняемые с применением средств гидромеханизации"/>
+		<Vid_Rab ID="10004" Category="Construction" Caption="Земляные работы, выполняемые по другим видам работ (подготовительным, сопутствующим, укрепительным)"/>
+		<Vid_Rab ID="11321" Category="Construction" Caption="Земляные работы, механизированное рыхление и разработка вечномерзлого грунта"/> 
+		<Vid_Rab ID="10005" Category="Construction" Caption="Горновскрышные работы"/>
+		<Vid_Rab ID="10007" Category="Construction" Caption="Скважины"/>
+		<Vid_Rab ID="10008" Category="Construction" Caption="Свайные работы"/>
+		<Vid_Rab ID="10009" Category="Construction" Caption="Опускные колодцы"/>
+		<Vid_Rab ID="10010" Category="Construction" Caption="Закрепление грунтов"/>
+		<Vid_Rab ID="10011" Category="Construction" Caption="Бетонные и железобетонные монолитные конструкции и работы в строительстве"/>
+		<Vid_Rab ID="10012" Category="Construction" Caption="Бетонные и железобетонные монолитные конструкции и работы в строительстве"/>
+		<Vid_Rab ID="11322" Category="Construction" Caption="Бетонные и железобетонные монолитные конструкции и работы в строительстве с применением индустриальных видов опалубки"/>
+        <Vid_Rab ID="11323" Category="Construction" Caption="Бетонные и железобетонные монолитные конструкции зданий атомных электростанций"/>
+		<Vid_Rab ID="10013" Category="Construction" Caption="Бетонные и железобетонные сборные конструкции и работы в строительстве"/>
+		<Vid_Rab ID="10014" Category="Construction" Caption="Бетонные и железобетонные сборные конструкции и работы в строительстве"/>	
+		<Vid_Rab ID="11324" Category="Construction" Caption="Бетонные и железобетонные сборные конструкции жилых, общественных и административно-бытовых зданий промышленных предприятий"/>
+        <Vid_Rab ID="11325" Category="Construction" Caption="Бетонные и железобетонные сборные конструкции зданий атомных электростанций"/>
+		<Vid_Rab ID="10015" Category="Construction" Caption="Конструкции из кирпича и блоков"/>
+		<Vid_Rab ID="10017" Category="Construction" Caption="Деревянные конструкции"/>
+		<Vid_Rab ID="10018" Category="Construction" Caption="Полы"/>
+		<Vid_Rab ID="10019" Category="Construction" Caption="Кровли"/>
+		<Vid_Rab ID="10020" Category="Construction" Caption="Защита строительных конструкций и оборудования от коррозии"/>
+		<Vid_Rab ID="10022" Category="Construction" Caption="Здания и сооружения из бетонных и железобетонных конструкций в сельском строительстве"/>
+		<Vid_Rab ID="10023" Category="Construction" Caption="Конструкции в сельском строительстве"/>
+		<Vid_Rab ID="10024" Category="Construction" Caption="Установка железобетонных конструкций при строительстве теплиц и овощехранилищ"/>
+		<Vid_Rab ID="11327" Category="Construction" Caption="Конструкции в сельском строительстве"/>
+		<Vid_Rab ID="10025" Category="Construction" Caption="Отделочные работы"/>
+		<Vid_Rab ID="10027" Category="Construction" Caption="Временные сборно-разборные здания и сооружения"/>
+		<Vid_Rab ID="10028" Category="Construction" Caption="Наружные сети водопровода, канализации, теплоснабжения, газопровода"/>
+		<Vid_Rab ID="10029" Category="Construction" Caption="Магистральные и промысловые трубопроводы"/>
+		<Vid_Rab ID="10030" Category="Construction" Caption="Теплоизоляционные работы"/>
+		<Vid_Rab ID="10031" Category="Construction" Caption="Автомобильные дороги"/>
+        <Vid_Rab ID="11328" Category="Construction" Caption="Устройство покрытий дорожек, тротуаров, мостовых и площадок и прочее"/>
+        <Vid_Rab ID="10032" Category="Construction" Caption="Железные дороги"/>
+		<Vid_Rab ID="10035" Category="Construction" Caption="Мосты и трубы"/>
+		<Vid_Rab ID="10036" Category="Construction" Caption="Аэродромы"/>
+		<Vid_Rab ID="10037" Category="Construction" Caption="Трамвайные пути"/>
+		<Vid_Rab ID="10038" Category="Construction" Caption="Линии электропередачи"/>
+		<Vid_Rab ID="10939" Category="Construction" Caption="Сооружения связи, радиовещания и телевидения"/>
+		<Vid_Rab ID="10044" Category="Construction" Caption="Земляные конструкции гидротехнических сооружений"/>
+		<Vid_Rab ID="10045" Category="Construction" Caption="Бетонные и железобетонные конструкции гидротехнических сооружений"/>
+		<Vid_Rab ID="10046" Category="Construction" Caption="Каменные конструкции гидротехнических сооружений"/>
+		<Vid_Rab ID="10048" Category="Construction" Caption="Деревянные конструкции гидротехнических сооружений"/>
+		<Vid_Rab ID="10049" Category="Construction" Caption="Гидроизоляционные работы в гидротехнических сооружениях"/>
+		<Vid_Rab ID="10050" Category="Construction" Caption="Берегоукрепительные работы"/>
+		<Vid_Rab ID="10051" Category="Construction" Caption="Судовозные пути стапелей и слипов"/>
+		<Vid_Rab ID="10052" Category="Construction" Caption="Подводно-строительные (водолазные) работы"/>
+		<Vid_Rab ID="10053" Category="Construction" Caption="Промышленные печи и трубы"/>
+		<Vid_Rab ID="10054" Category="Construction" Caption="Озеленение. Защитные лесонасаждения"/>
+		<Vid_Rab ID="10510" Category="Construction" Caption="Отдельные виды затрат, относимые на стоимость строительных работ"/>
+		<Vid_Rab ID="10091" Category="Construction" Caption="Материалы для строительных работ"/>
+        <Vid_Rab ID="2945" Caption="Материалы"/>
+	</VidRab_Group>
+	<VidRab_Group Caption="Монтаж металлоконструкций" ID="1">
+		<Vid_Rab ID="10016" Category="Construction" Caption="Строительные металлические конструкции"/>
+        <Vid_Rab ID="11326" Category="Construction" Caption="Строительные металлические конструкции атомных электрических станций"/>
+		<Vid_Rab ID="10021" Category="Construction" Caption="Металлические конструкции в сельском строительстве"/>
+		<Vid_Rab ID="10047" Category="Construction" Caption="Металлические конструкции гидротехнических сооружений"/>
+		<Vid_Rab ID="10511" Category="Construction" Caption="Монтаж металлических конструкций"/>                				
+	</VidRab_Group>
+	<VidRab_Group Caption="Буровзрывные работы" ID="2">
+		<Vid_Rab ID="10006" Category="Construction" Caption="Буровзрывные работы"/>
+	</VidRab_Group>
+	<VidRab_Group Caption="Горнопроходческие работы" ID="7">
+		<Vid_Rab ID="10033" Category="Construction" Caption="Тоннели и метрополитены, закрытый способ работ"/>
+		<Vid_Rab ID="10034" Category="Construction" Caption="Тоннели и метрополитены, открытый способ работ"/>
+		<Vid_Rab ID="10042" Category="Construction" Caption="Горнопроходческие работы: прохождение горных выработок"/>
+		<Vid_Rab ID="10043" Category="Construction" Caption="Горнопроходческие работы: другие работы"/>
+	</VidRab_Group>
+	<VidRab_Group Caption="Сантехнические работы" ID="4">
+		<Vid_Rab ID="10026" Category="Construction" Caption="Сантехнические работы - внутренние (трубопроводы, водопровод, канализация, отопление, газоснабжение, вентиляция и кондиционирование воздуха)"/>
+        <Vid_Rab ID="11380" Category="Construction" Caption="Сантехнические работы - внутренние (трубопроводы, водопровод, канализация, отопление, газоснабжение, вентиляция и кондиционирование воздуха)"/>	
+		<Vid_Rab ID="2950" Caption="Материалы"/>
+	</VidRab_Group>
+	<VidRab_Group Caption="Реконструкция" ID="6">
+		<Vid_Rab ID="10064" Category="Construction" Caption="Работы по реконструкции зданий и сооружений: усиление и замена существующих конструкций, возведение отдельных конструктивных элементов"/>
+        <Vid_Rab ID="11329" Category="Construction" Caption="Работы по реконструкции зданий и сооружений: разборка отдельных конструктивных элементов здания (сооружения), а также зданий (сооружений) в целом"/>
+	</VidRab_Group>
+	<VidRab_Group Caption="Ремонтно-строительные работы" ID="5">
+		<Vid_Rab ID="10065" Category="Construction" Caption="Земляные работы, выполняемые механизированным способом (ремонтно-строительные)"/>
+		<Vid_Rab ID="10066" Category="Construction" Caption="Земляные работы, выполняемые ручным способом (ремонтно-строительные)"/>
+		<Vid_Rab ID="10067" Category="Construction" Caption="Фундаменты (ремонтно-строительные)"/>
+		<Vid_Rab ID="10068" Category="Construction" Caption="Стены (ремонтно-строительные)"/>
+		<Vid_Rab ID="10069" Category="Construction" Caption="Перекрытия (ремонтно-строительные)"/>
+		<Vid_Rab ID="10070" Category="Construction" Caption="Перегородки (ремонтно-строительные)"/>
+		<Vid_Rab ID="10071" Category="Construction" Caption="Проемы (ремонтно-строительные)"/>
+		<Vid_Rab ID="10072" Category="Construction" Caption="Полы (ремонтно-строительные)"/>
+		<Vid_Rab ID="10073" Category="Construction" Caption="Крыши, кровли (ремонтно-строительные)"/>
+		<Vid_Rab ID="10074" Category="Construction" Caption="Лестницы, крыльца (ремонтно-строительные)"/>
+		<Vid_Rab ID="10075" Category="Construction" Caption="Печные работы (ремонтно-строительные)"/>
+		<Vid_Rab ID="10076" Category="Construction" Caption="Штукатурные работы (ремонтно-строительные)"/>
+		<Vid_Rab ID="10077" Category="Construction" Caption="Малярные работы (ремонтно-строительные)"/>
+		<Vid_Rab ID="10078" Category="Construction" Caption="Стекольные, обойные и облицовочные работы (ремонтно-строительные)"/>
+		<Vid_Rab ID="10079" Category="Construction" Caption="Лепные работы (ремонтно-строительные)"/>
+		<Vid_Rab ID="10080" Category="Construction" Caption="Внутренние санитарно-технические работы: демонтаж и разборка (ремонтно-строительные)"/>
+		<Vid_Rab ID="10081" Category="Construction" Caption="Внутренние санитарно-технические работы: смена труб, санприборов, запорной арматуры и другое (ремонтно-строительные)"/>
+		<Vid_Rab ID="10082" Category="Construction" Caption="Наружные инженерные сети: демонтаж, разборка, очистка (ремонтно-строительные)"/>
+		<Vid_Rab ID="10083" Category="Construction" Caption="Наружные инженерные сети: замена участков трубопроводов, восстановление и замена изделий и другое (ремонтно-строительные)"/>
+		<Vid_Rab ID="10084" Category="Construction" Caption="Электромонтажные работы (ремонтно-строительные)" OsColumn="М"/>
+		<Vid_Rab ID="10085" Category="Construction" Caption="Благоустройство (ремонтно-строительные)"/>
+		<Vid_Rab ID="10086" Category="Construction" Caption="Прочие ремонтно-строительные работы"/>
+		<Vid_Rab ID="10129" Category="Construction" Caption="Антикоррозийные работы (ремонтно-строительные)"/>
+		<Vid_Rab ID="10177" Category="Construction" Caption="Объекты мелиорации, включая сельхозводоснабжение"/>
+	</VidRab_Group>
+	<VidRab_Group Caption="Монтажные работы" ID="10003">
+		<Vid_Rab ID="11330" Category="Mounting" Caption="Металлообрабатывающее оборудование" OsColumn="М"/>
+		<Vid_Rab ID="11331" Category="Mounting" Caption="Деревообрабатывающее оборудование" OsColumn="М"/>
+		<Vid_Rab ID="11332" Category="Mounting" Caption="Подъемно-транспортное оборудование" OsColumn="М"/>
+		<Vid_Rab ID="11333" Category="Mounting" Caption="Дробильно-размольное, обогатительное и агломерационное оборудование" OsColumn="М"/>
+		<Vid_Rab ID="11334" Category="Mounting" Caption="Весовое оборудование" OsColumn="М"/>
+		<Vid_Rab ID="11335" Category="Mounting" Caption="Теплосиловое оборудование" OsColumn="М"/>
+		<Vid_Rab ID="11336" Category="Mounting" Caption="Компрессорные установки, насосы и вентиляторы" OsColumn="М"/>
+		<Vid_Rab ID="10059" Category="Mounting" Caption="Электротехнические установки на атомных электростанциях" OsColumn="М"/>
+		<Vid_Rab ID="11337" Category="Mounting" Caption="Электротехнические установки на горнорудных объектах" OsColumn="М"/>
+		<Vid_Rab ID="10060" Category="Mounting" Caption="Электротехнические установки на других объектах" OsColumn="М"/>
+		<Vid_Rab ID="11338" Category="Mounting" Caption="Электрические печи" OsColumn="М"/>
+		<Vid_Rab ID="10057" Category="Mounting" Caption="Прокладка и монтаж сетей связи" OsColumn="М"/>
+		<Vid_Rab ID="10039" Category="Mounting" Caption="Прокладка и монтаж сетей связи" OsColumn="М"/>
+		<Vid_Rab ID="10040" Category="Mounting" Caption="Монтаж радиотелевизионного и электронного оборудования" OsColumn="М"/>
+		<Vid_Rab ID="11377" Category="Mounting" Caption="Приборы, средства автоматизации и вычислительной техники" OsColumn="М"/>
+		<Vid_Rab ID="10041" Category="Mounting" Caption="Прокладка и монтаж междугородных линий связи" OsColumn="М"/>
+		<Vid_Rab ID="10061" Category="Mounting" Caption="Устройство сигнализации, централизации, блокировки и связи на железных дорогах" OsColumn="М"/>
+		<Vid_Rab ID="10062" Category="Mounting" Caption="Устройство средств посадки самолётов и систем управления воздушным движением на аэродромах" OsColumn="М"/>
+		<Vid_Rab ID="11339" Category="Mounting" Caption="Приборы, средства автоматизации и вычислительной техники" OsColumn="М"/>
+ 		<Vid_Rab ID="11340" Category="Mounting" Caption="Технологические трубопроводы" OsColumn="М"/>
+        <Vid_Rab ID="11382" Category="Mounting" Caption="Технологические трубопроводы" OsColumn="М"/>
+		<Vid_Rab ID="10058" Category="Mounting" Caption="Монтаж оборудования на атомных электростанциях" OsColumn="М"/>
+ 		<Vid_Rab ID="11341" Category="Mounting" Caption="Оборудование прокатных производств" OsColumn="М"/>
+ 		<Vid_Rab ID="11342" Category="Mounting" Caption="Оборудование для очистки газов" OsColumn="М"/>
+ 		<Vid_Rab ID="11343" Category="Mounting" Caption="Оборудование предприятий черной металлургии" OsColumn="М"/>
+ 		<Vid_Rab ID="11344" Category="Mounting" Caption="Оборудование предприятий цветной металлургии" OsColumn="М"/>
+ 		<Vid_Rab ID="11345" Category="Mounting" Caption="Оборудование предприятий химической и нефтеперерабатывающей промышленности" OsColumn="М"/>
+ 		<Vid_Rab ID="11346" Category="Mounting" Caption="Оборудование предприятий угольной и торфяной промышленности" OsColumn="М"/>
+ 		<Vid_Rab ID="11347" Category="Mounting" Caption="Оборудование сигнализации, централизации и блокировки на железнодорожном транспорте" OsColumn="М"/>
+ 		<Vid_Rab ID="11348" Category="Mounting" Caption="Оборудование контактной сети на железнодорожном транспорте" OsColumn="М"/>
+ 		<Vid_Rab ID="11349" Category="Mounting" Caption="Оборудование метрополитенов и тоннелей" OsColumn="М"/>
+ 		<Vid_Rab ID="11350" Category="Mounting" Caption="Оборудование гидроэлектрических станций и гидротехнических сооружений" OsColumn="М"/>
+ 		<Vid_Rab ID="11351" Category="Mounting" Caption="Оборудование предприятий электротехнической промышленности" OsColumn="М"/>
+ 		<Vid_Rab ID="11352" Category="Mounting" Caption="Оборудование предприятий промышленности строительных материалов" OsColumn="М"/>
+ 		<Vid_Rab ID="11353" Category="Mounting" Caption="Оборудование предприятий целлюлозно-бумажной промышленности" OsColumn="М"/>
+ 		<Vid_Rab ID="11354" Category="Mounting" Caption="Оборудование предприятий текстильной промышленности" OsColumn="М"/>
+ 		<Vid_Rab ID="11355" Category="Mounting" Caption="Оборудование предприятий полиграфической промышленности" OsColumn="М"/>
+ 		<Vid_Rab ID="11356" Category="Mounting" Caption="Оборудование предприятий пищевой промышленности" OsColumn="М"/>
+ 		<Vid_Rab ID="11357" Category="Mounting" Caption="Оборудование театрально-зрелищных предприятий" OsColumn="М"/>
+ 		<Vid_Rab ID="11358" Category="Mounting" Caption="Оборудование зернохранилищ и предприятий по переработке зерна" OsColumn="М"/>
+ 		<Vid_Rab ID="11359" Category="Mounting" Caption="Оборудование предприятий кинематографии" OsColumn="М"/>
+ 		<Vid_Rab ID="11360" Category="Mounting" Caption="Оборудование предприятий электронной промышленности и промышленности средств связи" OsColumn="М"/>
+ 		<Vid_Rab ID="11361" Category="Mounting" Caption="Оборудование предприятий легкой промышленности" OsColumn="М"/>
+ 		<Vid_Rab ID="11362" Category="Mounting" Caption="Оборудование учреждений здравоохранения и предприятий медицинской промышленности" OsColumn="М"/>
+ 		<Vid_Rab ID="11363" Category="Mounting" Caption="Оборудование сельскохозяйственных производств" OsColumn="М"/>
+		<Vid_Rab ID="11364" Category="Mounting" Caption="Оборудование предприятий бытового обслуживания и коммунального хозяйства" OsColumn="М"/>
+		<Vid_Rab ID="11365" Category="Mounting" Caption="Оборудование общего назначения" OsColumn="М"/>
+		<Vid_Rab ID="11366" Category="Mounting" Caption="Изготовление технологических металлических конструкций в условиях производственных баз" OsColumn="М"/>
+		<Vid_Rab ID="11367" Category="Mounting" Caption="Контроль монтажных сварных соединений" OsColumn="М"/>
+		<Vid_Rab ID="11368" Category="Mounting" Caption="Дополнительное перемещение оборудования и материальных ресурсов, сверх предусмотренного государственными элементными сметными нормами на монтаж оборудования" OsColumn="М"/>
+		<Vid_Rab ID="10092" Category="Mounting" Caption="Материалы для монтажных работ" OsColumn="М"/>
+        <Vid_Rab ID="10192" Caption="Материалы для монтажных работ" OsColumn="М"/>
+	</VidRab_Group>
+	<VidRab_Group Caption="Оборудование" ID="1021">
+		<Vid_Rab ID="10087" Category="Equipment" Caption="Оборудование" OsColumn="О"/>
+        <Vid_Rab ID="11300" Category="EqEngineering" Caption="Инженерное оборудование" OsColumn="О"/>
+        <Vid_Rab ID="11301" Category="EqTech" Caption="Технологическое оборудование" OsColumn="О"/>
+        <Vid_Rab ID="11302" Category="EqLaboratory" Caption="Лабораторное оборудование" OsColumn="О"/>
+        <Vid_Rab ID="11303" Category="EqTools" Caption="Инструмент для технологических процессов" OsColumn="О"/>
+        <Vid_Rab ID="11304" Category="EqInventory" Caption="Производственный и хозяйственный инвентарь, в том числе мебель" OsColumn="О"/>
+        <Vid_Rab ID="11305" Category="EqVehicles" Caption="Транспортные средства" OsColumn="О"/>
+	</VidRab_Group>
+	<VidRab_Group Caption="Ремонт оборудования" ID="12">
+        <Vid_Rab ID="11369" Category="MountingRelated" Caption="Капитальный ремонт и модернизация оборудования лифтов" OsColumn="М"/>
+        <Vid_Rab ID="11370" Category="MountingRelated" Caption="Работы по техническому диагностированию и обследованию оборудования лифтов" OsColumn="М"/>
+        <Vid_Rab ID="11371" Category="MountingRelated" Caption="Ревизия трубопроводной арматуры" OsColumn="М"/>
+		<Vid_Rab ID="10089" Category="MountingRelated" Caption="Ремонт технологического оборудования" OsColumn="М"/>
+		<Vid_Rab ID="10475" Category="MountingRelated" Caption="Ремонт оборудования и технологических систем промышленных предприятий" OsColumn="М"/>
+		<Vid_Rab ID="11109" Caption="Ремонт оборудования " OsColumn="М"/>
+		<Vid_Rab ID="10555" Caption="Материалы для ремонтных работ" OsColumn="М"/>
+		<Vid_Rab ID="10556" Caption="Материалы"/>
+	</VidRab_Group>
+	<VidRab_Group Caption="Ремонтные работы Министерства энергетики" ID="1022">
+
+	<Vid_Rab ID="10389" Caption="Ремонт энергооборудования" OsColumn="П"/>
+	<Vid_Rab ID="10546" Caption="Ремонт электротехнических установок. Ремонт трансформаторов и электродвигателей" OsColumn="М"/>
+	<Vid_Rab ID="10547" Caption="Ремонт электротехнических установок. Ремонт электрооборудования трансформаторных подстанций и распределительных устройств" OsColumn="М"/>
+	<Vid_Rab ID="10548" Caption="Ремонт электротехнических установок. Ремонт и техническое обслуживание линий электропередачи" OsColumn="М"/>
+	<Vid_Rab ID="10549" Caption="Ремонт электротехнических установок. Испытания и наладка электротехнических установок" OsColumn="М"/>
+	<Vid_Rab ID="10550" Caption="Ремонт электротехнических установок. Ремонт механического оборудования" OsColumn="М"/>
+	<Vid_Rab ID="10595" Caption="Ремонт электротехнических установок Том 1" OsColumn="М"/>
+	<Vid_Rab ID="10596" Caption="Ремонт электротехнических установок Том 2" OsColumn="М"/>
+	<Vid_Rab ID="11102" Caption="Ремонт электротехнических установок Том 3" OsColumn="М"/>
+	<Vid_Rab ID="10597" Caption="Ремонт электротехнических установок Том 4" OsColumn="М"/>
+	<Vid_Rab ID="11103" Caption="Ремонт электротехнических установок Том 5" OsColumn="М"/>
+	<Vid_Rab ID="11104" Caption="Ремонт электротехнических установок Том 6" OsColumn="М"/>
+	<Vid_Rab ID="11105" Caption="Ремонт электротехнических установок Том 7" OsColumn="М"/>
+	<Vid_Rab ID="11110" Caption="Ремонт электротехнических установок" OsColumn="М"/>
+
+	</VidRab_Group>
+	<VidRab_Group Caption="Пусконаладочные работы" ID="10">
+		<Vid_Rab ID="10101" Category="Commissioning" Caption="Пусконаладочные работы: &apos;вхолостую&apos; - 80%, &apos;под нагрузкой&apos; - 20%" OsColumn="П"/>
+		<Vid_Rab ID="10102" Category="Commissioning" Caption="Пусконаладочные работы: &apos;вхолостую&apos; - 75%, &apos;под нагрузкой&apos; - 25%" OsColumn="П"/>
+		<Vid_Rab ID="10104" Category="Commissioning" Caption="Пусконаладочные работы: &apos;вхолостую&apos; - 55%, &apos;под нагрузкой&apos; - 45%" OsColumn="П"/>
+		<Vid_Rab ID="10105" Category="Commissioning" Caption="Пусконаладочные работы: &apos;вхолостую&apos; - 70%, &apos;под нагрузкой&apos; - 30%" OsColumn="П"/>
+		<Vid_Rab ID="10106" Category="Commissioning" Caption="Пусконаладочные работы: &apos;вхолостую&apos; - 14%, &apos;под нагрузкой&apos; - 86%" OsColumn="П"/>
+		<Vid_Rab ID="10107" Category="Commissioning" Caption="Пусконаладочные работы: &apos;вхолостую&apos; - 28%, &apos;под нагрузкой&apos; - 72%" OsColumn="П"/>
+		<Vid_Rab ID="10108" Category="Commissioning" Caption="Пусконаладочные работы: &apos;вхолостую&apos; - 36%, &apos;под нагрузкой&apos; - 64%" OsColumn="П"/>
+		<Vid_Rab ID="10109" Category="Commissioning" Caption="Пусконаладочные работы: &apos;вхолостую&apos; - 35%, &apos;под нагрузкой&apos; - 65%" OsColumn="П"/>
+		<Vid_Rab ID="10110" Category="Commissioning" Caption="Пусконаладочные работы: &apos;вхолостую&apos; - 57%, &apos;под нагрузкой&apos; - 43%" OsColumn="П"/>
+		<Vid_Rab ID="10111" Category="Commissioning" Caption="Пусконаладочные работы: &apos;вхолостую&apos; - 47%, &apos;под нагрузкой&apos; - 53%" OsColumn="П"/>
+		<Vid_Rab ID="10112" Category="Commissioning" Caption="Пусконаладочные работы: &apos;вхолостую&apos; - 53%, &apos;под нагрузкой&apos; - 47%" OsColumn="П"/>
+		<Vid_Rab ID="10113" Category="Commissioning" Caption="Пусконаладочные работы: &apos;вхолостую&apos; - 50%, &apos;под нагрузкой&apos; - 50%" OsColumn="П"/>
+		<Vid_Rab ID="10114" Category="Commissioning" Caption="Пусконаладочные работы: &apos;вхолостую&apos; - 25%, &apos;под нагрузкой&apos; - 75%" OsColumn="П"/>
+		<Vid_Rab ID="10115" Category="Commissioning" Caption="Пусконаладочные работы: &apos;вхолостую&apos; - 22%, &apos;под нагрузкой&apos; - 78%" OsColumn="П"/>
+		<Vid_Rab ID="10103" Category="Commissioning" Caption="Пусконаладочные работы: &apos;вхолостую&apos; - 50%, &apos;под нагрузкой&apos; - 50%" OsColumn="П"/>
+		<Vid_Rab ID="10116" Category="Commissioning" Caption="Пусконаладочные работы: &apos;вхолостую&apos; - 60%, &apos;под нагрузкой&apos; - 40%" OsColumn="П"/>
+		<Vid_Rab ID="10117" Category="Commissioning" Caption="Пусконаладочные работы: &apos;вхолостую&apos; - 30%, &apos;под нагрузкой&apos; - 70%" OsColumn="П"/>
+		<Vid_Rab ID="10118" Category="Commissioning" Caption="Пусконаладочные работы: &apos;вхолостую&apos; - 10%, &apos;под нагрузкой&apos; - 90%" OsColumn="П"/>
+		<Vid_Rab ID="10119" Category="Commissioning" Caption="Пусконаладочные работы: &apos;под нагрузкой&apos; - 100% (не относятся к пусконаладочным и выполняются на действующих предприятиях по отдельному договору с заказчиком)" OsColumn="П"/>
+        <Vid_Rab ID="10063" Category="Commissioning" Caption="Пусконаладочные работы" OsColumn="П"/>
+        <Vid_Rab ID="11372" Category="Commissioning" Caption="Пусконаладочные работы технологического оборудования АЭС" OsColumn="П"/>
+	</VidRab_Group>
+	<VidRab_Group Caption="Иные работы" ID="1025">	
+		<Vid_Rab ID="10495" Category="ConstrRelated" Caption="Изготовление в построечных условиях материалов, полуфабрикатов, металлических заготовок"/>
+        <Vid_Rab ID="10496" Category="ConstrRelated" Caption="Изготовление в построечных условиях материалов, полуфабрикатов, металлических и трубопроводных заготовок"/>
+		<Vid_Rab ID="10139" Category="MountingRelated" Caption="Изготовление в построечных условиях материалов, полуфабрикатов, металлических и трубопроводных заготовок" OsColumn="М"/>
+		<Vid_Rab ID="19139" Category="MountingRelated" Caption="Изготовление в построечных условиях материалов, полуфабрикатов, металлических и трубопроводных заготовок" OsColumn="М"/>	
+	</VidRab_Group>	
+	<VidRab_Group Caption="Прочие затраты" ID="15">
+		<Vid_Rab ID="11373" Category="OtherRelated" Caption="Получение электроэнергии от передвижных источников снабжения" OsColumn="П"/>
+        <Vid_Rab ID="11378" Category="OtherRelated" Caption="Перевозка работников автомобильным транспортом" OsColumn="П"/>
+		<Vid_Rab ID="2955" Category="OtherRelated" Caption="Отдельные виды затрат, относимые на стоимость прочих работ" OsColumn="П"/>
+        <Vid_Rab ID="11394" Category="OtherRelated" Caption="Перебазировка строительной техники" OsColumn="П"/>		
+	</VidRab_Group>
+	<VidRab_Group Caption="Ремонтно-реставрационные работы по сохранению объектов культурного наследия" ID="11">
+		<Vid_Rab ID="11201" Category="Restoration" Caption="Архитектурно-археологические и земляные работы в зонах памятников истории и культуры"/>
+		<Vid_Rab ID="11202" Category="Restoration" Caption="Реставрация и воссоздание фундаментов, конструкций из кирпича, бутового и булыжного камней"/>
+		<Vid_Rab ID="11203" Category="Restoration" Caption="Реставрация и воссоздание кирпичных кладок"/>
+		<Vid_Rab ID="11204" Category="Restoration" Caption="Реставрация и воссоздание конструкций и декора из естественного камня"/>
+		<Vid_Rab ID="11205" Category="Restoration" Caption="Реставрация и воссоздание деревянных конструкций и деталей"/>
+		<Vid_Rab ID="11206" Category="Restoration" Caption="Реставрация и воссоздание кровель"/>
+		<Vid_Rab ID="11207" Category="Restoration" Caption="Реставрация и воссоздание металлических конструкций и декоративных элементов"/>
+		<Vid_Rab ID="11208" Category="Restoration" Caption="Реставрация и воссоздание штукатурной отделки"/>
+		<Vid_Rab ID="11209" Category="Restoration" Caption="Реставрация и воссоздание облицовок из искусственного мрамора"/>
+		<Vid_Rab ID="11210" Category="Restoration" Caption="Реставрация и воссоздание окрасок фасадов и интерьеров"/>
+		<Vid_Rab ID="11211" Category="Restoration" Caption="Реставрация и воссоздание керамического декора"/>
+		<Vid_Rab ID="11212" Category="Restoration" Caption="Реставрация и воссоздание архитектурно-лепного декора"/>
+		<Vid_Rab ID="11213" Category="Restoration" Caption="Реставрация и воссоздание резьбы по дереву"/>
+		<Vid_Rab ID="11214" Category="Restoration" Caption="Реставрация мебели"/>
+		<Vid_Rab ID="11215" Category="Restoration" Caption="Реставрация и воссоздание паркетных полов"/>
+		<Vid_Rab ID="11216" Category="Restoration" Caption="Воссоздание изделий художественного литья из цветных металлов"/>
+		<Vid_Rab ID="11217" Category="Restoration" Caption="Чеканные, выколотные, давильные работы"/>
+		<Vid_Rab ID="11218" Category="Restoration" Caption="Реставрация и воссоздание инкрустированной поверхности"/>
+		<Vid_Rab ID="11219" Category="Restoration" Caption="Обивочные работы по реставрации мягкой мебели"/>
+		<Vid_Rab ID="11220" Category="Restoration" Caption="Реставрация и воссоздание позолоты"/>
+		<Vid_Rab ID="11221" Category="Restoration" Caption="Разные работы"/>
+		<Vid_Rab ID="11222" Category="Restoration" Caption="Реставрация и воссоздание оконных и дверных приборов"/>
+		<Vid_Rab ID="11223" Category="Restoration" Caption="Реставрация и воссоздание тканей, гобеленов и художественных тканей"/>
+		<Vid_Rab ID="11224" Category="Restoration" Caption="Художественная обработка металла гальваническим способом"/>
+		<Vid_Rab ID="11225" Category="Restoration" Caption="Реставрация и воссоздание предметов декоративно-прикладного искусства из цветных металлов и хрустальных подвесок"/>
+		<Vid_Rab ID="11226" Category="Restoration" Caption="Реставрация и воссоздание предметов декоративно-прикладного искусства оловянно-слюдяной группы"/>
+		<Vid_Rab ID="11227" Category="Restoration" Caption="Реставрация монументальной и станковой живописи"/>
+		<Vid_Rab ID="11231" Category="Restoration" Caption="Реставрационные работы по озеленению и благоустройству исторических садов, парков и территорий вокруг памятников истории и культуры"/>
+        </VidRab_Group>
+	<VidRab_Group Caption="Перевозка грузов (грунт, мусор и подобное)" ID="1015">
+		<Vid_Rab ID="11320" Caption="Перевозка грузов (грунт, мусор и подобное)" ResGroup="Transp" Category="Transportation"/>
+        <Vid_Rab ID="11390" Caption="Перевозка грузов автотранспортом (Автомобили бортовые)" ResGroup="Transp" Category="TranspTrucks"/>
+        <Vid_Rab ID="11391" Caption="Перевозка грузов автотранспортом (Автомобили-самосвалы)" ResGroup="Transp" Category="TranspDumpTrucks"/>
+        <Vid_Rab ID="11411" Caption="Погрузо-разгрузочные работы при перевозке грузов (грунт, мусор и подобное)" ResGroup="Load" Category="Transportation"/>
+        <Vid_Rab ID="11420" Caption="Погрузо-разгрузочные работы, осуществляемые вручную" ResGroup="Load" Category="Transportation"/>
+        </VidRab_Group>
+	<VidRab_Group Caption="Дополнительная перевозка грузов для строительства" ID="1016">
+        <Vid_Rab ID="11408" Caption="Дополнительная перевозка грузов для строительства" Category="ConstrAddTransportation"/>
+        <Vid_Rab ID="11385" Caption="Дополнительная перевозка грузов автотранспортом (Автомобили бортовые)" Category="AddTranspTrucks"/>
+        <Vid_Rab ID="11386" Caption="Дополнительная перевозка грузов автотранспортом (Автомобили-самосвалы)" Category="AddTranspDumpTrucks"/>
+        <Vid_Rab ID="11387" Caption="Дополнительная перевозка грузов автотранспортом (Автомобили-панелевозы)" Category="AddTranspPanels"/>
+        <Vid_Rab ID="11388" Caption="Дополнительная перевозка грузов автотранспортом (Автомобили-трубоплетевозы)" Category="AddTranspPipes"/>
+        <Vid_Rab ID="11389" Caption="Дополнительная перевозка грузов автотранспортом (Автобетоносмесители)" Category="AddTranspConcrete"/>
+        <Vid_Rab ID="11402" Caption="Дополнительная перевозка грузов автотранспортом (Прочие автомобили)" Category="ConstrAddTransportation"/>
+        <Vid_Rab ID="11392" Caption="Погрузо-разгрузочные работы при дополнительной перевозке" Category="ConstrAddTransportation"/>
+        <Vid_Rab ID="11395" Caption="Дополнительная перевозка грузов тракторами" Category="ConstrAddTransportation"/>
+        <Vid_Rab ID="11403" Caption="Перевозка грузов ж/д транспортом" Category="ConstrAddTransportation"/>
+		<Vid_Rab ID="11410" Caption="Погрузо-разгрузочные работы при ж/д перевозках" Category="ConstrAddTransportation"/>
+		<Vid_Rab ID="11405" Caption="Дополнительная перевозка грузов водным (речным) транспортом" Category="ConstrAddTransportation"/>
+		<Vid_Rab ID="11406" Caption="Погрузо-разгрузочные работы при речных перевозках" Category="ConstrAddTransportation"/>
+		<Vid_Rab ID="11407" Caption="Дополнительная перевозка грузов водным (морским) транспортом" Category="ConstrAddTransportation"/>
+        <Vid_Rab ID="11409" Caption="Погрузо-разгрузочные работы в портах" Category="ConstrAddTransportation"/>
+		<Vid_Rab ID="10137" Caption="Тара, упаковка, реквизит" Category="ConstrAddTransportation"/>
+        <Vid_Rab ID="11396" Caption="Дополнительные затраты на перевозку оборудования" OsColumn="О" Category="EqAddTransportation" />
+        <Vid_Rab ID="11397" Caption="Дополнительные затраты на погрузочно-разгрузочные работы оборудования" OsColumn="О" Category="EqAddTransportation" />
+	</VidRab_Group>
+	<VidRab_Group Caption="Перевозка грузов (при расчетах по МДС 81.35-2004)" ID="1013">
+		<Vid_Rab ID="10135" Caption="Погрузо-разгрузочные работы при автоперевозках" ResGroup="Load" Category="Transportation"/>	
+		<Vid_Rab ID="10133" Caption="Перевозка грузов автотранспортом" ResGroup="Transp" Category="Transportation"/>
+		<Vid_Rab ID="11376" Caption="Перевозка строительных грузов автомобильным транспортом" ResGroup="Transp" Category="Transportation"/>
+		<Vid_Rab ID="10136" Caption="Погрузо-разгрузочные работы при ж/д перевозках" ResGroup="Load" Category="Transportation"/>
+        <Vid_Rab ID="11393" Caption="Погрузо-разгрузочные работы при перевозке грузов ж/д транспортом" ResGroup="Load" Category="Transportation"/>		
+		<Vid_Rab ID="10134" Caption="Перевозка грузов ж/д транспортом" ResGroup="Transp" Category="Transportation"/>
+		<Vid_Rab ID="10174" Caption="Погрузо-разгрузочные работы при речных перевозках" ResGroup="Load" Category="Transportation"/>		
+		<Vid_Rab ID="10173" Caption="Перевозка грузов водным (речным) транспортом" ResGroup="Transp" Category="Transportation"/>
+		<Vid_Rab ID="10178" Caption="Погрузо-разгрузочные работы в портах" ResGroup="Load" Category="Transportation"/>		
+		<Vid_Rab ID="10179" Caption="Перевозка грузов водным (морским) транспортом" ResGroup="Transp" Category="Transportation"/>
+		<Vid_Rab ID="10591" Caption="Погрузо-разгрузочные работы" ResGroup="Load" Category="Transportation"/>
+		<Vid_Rab ID="11401" Caption="Погрузо-разгрузочные работы" ResGroup="Load" Category="Transportation"/>		
+		<Vid_Rab ID="11375" Caption="Погрузочно-разгрузочные работы" ResGroup="Load" Category="Transportation"/>		
+    </VidRab_Group>
+	<VidRab_Group Caption="Укрупненные нормативы по основным видам строительства" ID="1011">
+		<Vid_Rab ID="11018" Category="Construction" Caption="Промышленное строительство"/>
+		<Vid_Rab ID="11019" Category="Construction" Caption="Жилищно-гражданское строительство"/>
+		<Vid_Rab ID="11020" Category="Construction" Caption="Сельскохозяйственное строительство"/>
+		<Vid_Rab ID="11021" Category="Construction" Caption="Транспортное строительство"/>
+		<Vid_Rab ID="11022" Category="Construction" Caption="Водохозяйственное строительство"/>
+		<Vid_Rab ID="11023" Category="Construction" Caption="Энергетическое строительство"/>
+		<Vid_Rab ID="11024" Category="Construction" Caption="Атомные электростанции"/>
+		<Vid_Rab ID="11025" Category="Construction" Caption="Прочие отрасли"/>
+		<Vid_Rab ID="11026" Category="Construction" Caption="Капитальный ремонт жилых и общественных зданий"/>
+		<Vid_Rab ID="10088" Category="Restoration" Caption="Работы по реставрации памятников истории и культуры"/>
+	</VidRab_Group>
+        <VidRab_Group Caption="Содержание городского хозяйства" ID="14">
+		<Vid_Rab ID="10180" Caption="Содержание автомобильных дорог"/>
+		<Vid_Rab ID="11181" Caption="Содержание автомобильных дорог федерального значения"/>
+		<Vid_Rab ID="11192" Caption="Содержание автомобильных дорог общего пользования (Пензенская область)"/>
+		<Vid_Rab ID="10120" Caption="Содержание автомобильных дорог (Красноярский край)"/>
+		<Vid_Rab ID="10125" Caption="Содержание автомобильных дорог"/>
+		<Vid_Rab ID="11155" Caption="Содержание автомобильных дорог (Чувашская Республика)"/>
+		<Vid_Rab ID="10553" Caption="Текущий ремонт и содержание зданий, сооружений и дорог (Тюменская область)"/>
+		<Vid_Rab ID="10240" Caption="Зимнее содержание автомобильных дорог (Кемеровская область)"/>
+		<Vid_Rab ID="10241" Caption="Ремонт автомобильных дорог с использованием новой техники и технологий (Кемеровская область)"/>
+		<Vid_Rab ID="10242" Caption="Ремонт и содержание мостовых сооружений (Кемеровская область)"/>
+		<Vid_Rab ID="10534" Caption="Содержание улично-дорожной сети (Санкт-Петербург)"/>
+		<Vid_Rab ID="10535" Caption="Содержание и ремонт объектов зеленых насаждений (Санкт-Петербург)"/>
+		<Vid_Rab ID="10536" Caption="Содержание и ремонт объектов зеленых насаждений (Санкт-Петербург)"/>
+		<Vid_Rab ID="10542" Caption="Содержание искусственных сооружений (Санкт-Петербург)"/>
+		<Vid_Rab ID="10544" Caption="Технические средства регулирования дорожного движения (Санкт-Петербург)"/>
+		<Vid_Rab ID="10551" Caption="Эксплуатация дорог и элементов благоустройства (Московская обл.)"/>
+		<Vid_Rab ID="11191" Caption="Содержание светофорных объектов (Московская обл.)"/>
+        <Vid_Rab ID="11199" Caption="Ремонт автомобильных дорог (Кемеровская область)"/>
+        <Vid_Rab ID="11200" Caption="Содержание автомобильных дорог (Кемеровская область)"/>
+        <Vid_Rab ID="11257" Caption="Содержание автомобильных дорог "/>
+	</VidRab_Group>
+	<VidRab_Group Caption="Содержание зданий и сооружений в Санкт-Петербурге" ID="2078">
+		<Vid_Rab ID="11071" Caption="Фундаменты и подвалы"/>
+		<Vid_Rab ID="11072" Caption="Стены и фасады"/>
+		<Vid_Rab ID="11073" Caption="Перекрытия"/>
+		<Vid_Rab ID="11074" Caption="Перегородки"/>
+		<Vid_Rab ID="11075" Caption="Проемы"/>
+		<Vid_Rab ID="11076" Caption="Полы"/>
+		<Vid_Rab ID="11077" Caption="Крыша, кровля"/>
+		<Vid_Rab ID="11078" Caption="Лестницы, крыльца"/>
+		<Vid_Rab ID="11079" Caption="Штукатурные работы"/>
+		<Vid_Rab ID="11080" Caption="Малярные работы"/>
+		<Vid_Rab ID="11082" Caption="Обойные и облицовочные работы"/>
+		<Vid_Rab ID="11083" Caption="Печные работы"/>
+		<Vid_Rab ID="11084" Caption="Отопление: демонтаж и разборка"/>
+		<Vid_Rab ID="11085" Caption="Отопление: смена труб"/>
+		<Vid_Rab ID="11086" Caption="Водоснабжение, водоотведение: демонтаж и разборка"/>
+		<Vid_Rab ID="11088" Caption="Водоснабжение, водоотведение: смена труб"/>
+		<Vid_Rab ID="11089" Caption="Электротехнические работы"/>
+		<Vid_Rab ID="11090" Caption="Благоустройство"/>
+		<Vid_Rab ID="11091" Caption="Осмотры"/>
+		<Vid_Rab ID="11092" Caption="Уборка внутренних помещений"/>
+		<Vid_Rab ID="11093" Caption="Санитарное содержание лестничных клеток"/>
+		<Vid_Rab ID="11094" Caption="Очистка и обслуживание мусоропровода"/>
+		<Vid_Rab ID="11095" Caption="Ручная уборка территории летом"/>
+		<Vid_Rab ID="11096" Caption="Ручная уборка территории зимой"/>
+		<Vid_Rab ID="11097" Caption="Малые архитектурные формы"/>
+		<Vid_Rab ID="11249" Caption="Спортивные объекты"/>
+		<Vid_Rab ID="11254" Caption="Газоснабжение: демонтаж и разборка"/>
+		<Vid_Rab ID="11255" Caption="Газоснабжение: монтаж и смена"/>
+        <Vid_Rab ID="11256" Caption="Содержание уличных часов"/>
+        <Vid_Rab ID="11258" Caption="Прочие работы"/>		
+	</VidRab_Group>
+        <VidRab_Group Caption="Ремонтно-реставрационные работы, осуществляемые за счет средств бюджета Санкт-Петербурга" ID="78">
+		<Vid_Rab ID="10206" Caption="Ремонтно-реставрационные работы. Укрупненный норматив"/>
+		<Vid_Rab ID="10209" Caption="1.01. Архитектурно-археологические и земляные работы на территориях, занимаемых объектами культурного наследия Санкт-Петербурга"/>
+		<Vid_Rab ID="10210" Caption="1.02.01. Реставрация и воссоздание фундаментов и конструкций"/>
+		<Vid_Rab ID="10211" Caption="1.02.02. Укрепление фундаментов цементацией, гидроизоляция и противокапиллярная защита подвалов, цокольных этажей и стен"/>
+		<Vid_Rab ID="10212" Caption="1.03. Реставрация и воссоздание кирпичных кладок"/>
+		<Vid_Rab ID="10213" Caption="1.04. Реставрация и воссоздание конструкций и декора из естественного камня"/>
+		<Vid_Rab ID="10214" Caption="1.05. Реставрация и воссоздание деревянных конструкции и детали"/>
+		<Vid_Rab ID="10215" Caption="1.06. Реставрация и воссоздание кровель"/>
+		<Vid_Rab ID="10216" Caption="1.07. Реставрация и воссоздание металлических конструкций и декоративных элементов"/>
+		<Vid_Rab ID="10217" Caption="1.08. Реставрация и воссоздание штукатурной отделки"/>
+		<Vid_Rab ID="10218" Caption="1.09. Реставрация и воссоздание облицовок из искусственного мрамора"/>
+		<Vid_Rab ID="10219" Caption="1.10. Реставрация и воссоздание окрасок фасадов и интерьеров"/>
+		<Vid_Rab ID="10220" Caption="1.11. Реставрация и воссоздание керамического декора"/>
+		<Vid_Rab ID="10221" Caption="1.12. Реставрация и воссоздание архитектурного лепного декора"/>
+		<Vid_Rab ID="10222" Caption="1.13. Реставрация и воссоздание резьбы по дереву"/>
+		<Vid_Rab ID="10223" Caption="1.14. Реставрация мебели"/>
+		<Vid_Rab ID="10224" Caption="1.15. Реставрация и воссоздание паркетных полов"/>
+		<Vid_Rab ID="10225" Caption="1.16. Воссоздание изделий художественного литья из цветных металлов"/>
+		<Vid_Rab ID="10226" Caption="1.17. Чеканные, выколотные и давильные работы"/>
+		<Vid_Rab ID="10227" Caption="1.18. Реставрация и воссоздание инкрустированной поверхности"/>
+		<Vid_Rab ID="10228" Caption="1.19. Облицовочные работы при реставрации мягкой мебали"/>
+		<Vid_Rab ID="10229" Caption="1.20. Реставрация и воссоздание позолоты (без стоимости золота)"/>
+		<Vid_Rab ID="10230" Caption="1.21. Разные работы"/>
+		<Vid_Rab ID="10231" Caption="1.22. Реставрация и воссоздание оконных и дверных приборов"/>
+		<Vid_Rab ID="10232" Caption="1.23. Реставрация и воссоздание художественных тканей и гобеленов"/>
+		<Vid_Rab ID="10233" Caption="1.24. Художественная обработка металлических изделий гальваническим способом"/>
+		<Vid_Rab ID="10234" Caption="1.25. Реставрация и воссоздание предметов декоративно-прикладного искусства из цветного металла и хрустальных подвесок"/>
+		<Vid_Rab ID="10235" Caption="1.26. Реставрация и воссоздание предметов декоративно-прикладного искусства"/>
+		<Vid_Rab ID="10236" Caption="1.27. Реставрация монументальной и станковой живописи"/>
+		<Vid_Rab ID="10237" Caption="1.28. Воссоздание полностью или частично утраченной декоративно-монументальной и станковой живописи в зданиях-памятниках архитектуры"/>
+		<Vid_Rab ID="10238" Caption="1.29. Реставрация и воссоздание мозаики"/>
+		<Vid_Rab ID="10239" Caption="1.30. Реставрация и воссоздание янтарного набора предметов декоративно-прикладного искусства"/>
+	</VidRab_Group>
+	<VidRab_Group Caption="Содержание и текущий ремонт общего имущества в многоквартирных домах в Санкт-Петербурге" ID="78">
+		<Vid_Rab ID="10182" Caption="Земляные работы, выполняемые механизированным способом"/>
+		<Vid_Rab ID="10183" Caption="Земляные работы, выполняемые ручным способом"/>
+		<Vid_Rab ID="10184" Caption="Фундаменты"/>
+		<Vid_Rab ID="10185" Caption="Стены"/>
+		<Vid_Rab ID="10186" Caption="Перекрытия"/>
+		<Vid_Rab ID="10187" Caption="Перегородки"/>
+		<Vid_Rab ID="10188" Caption="Проемы"/>
+		<Vid_Rab ID="10189" Caption="Полы"/>
+		<Vid_Rab ID="10190" Caption="Крыши, кровли"/>
+		<Vid_Rab ID="10191" Caption="Лестницы, крыльца"/>
+		<Vid_Rab ID="10539" Caption="Печные работы"/>
+		<Vid_Rab ID="10193" Caption="Штукатурные работы"/>
+		<Vid_Rab ID="10194" Caption="Малярные работы"/>
+		<Vid_Rab ID="10195" Caption="Стекольные, обойные и облицовочные работы"/>
+		<Vid_Rab ID="10196" Caption="Лепные работы"/>
+		<Vid_Rab ID="10197" Caption="Внутренние санитарно-технические работы: демонтаж и разборка"/>
+		<Vid_Rab ID="10198" Caption="Внутренние санитарно-технические работы: смена труб"/>
+		<Vid_Rab ID="10199" Caption="Наружные инженерные сети: демонтаж, разборка, очистка"/>
+		<Vid_Rab ID="10200" Caption="Наружные инженерные сети: смена труб, прочие работы"/>
+		<Vid_Rab ID="10201" Caption="Электромонтажные работы" OsColumn="М"/>
+		<Vid_Rab ID="10202" Caption="Благоустройство"/>
+		<Vid_Rab ID="10203" Caption="Прочие ремонтно-строительные работы"/>
+		<Vid_Rab ID="10204" Caption="Техническое обслуживание и текущий ремонт общего имущества многоквартирных жилых домов, в т.ч. за счет платы населения, установленной Законом Санкт-Петербурга" OsColumn="П"/>
+		<Vid_Rab ID="10205" Caption="Санитарное содержание общего имущества многоквартирных жилых домов, включая уборку придомовой территории, в т.ч. за счет платы населения, установленной Законом Санкт-Петербурга" OsColumn="П"/>
+	</VidRab_Group>
+	<VidRab_Group Caption="Ремонтные работы Нефтехимия" ID="1041">
+		<Vid_Rab ID="10481" Caption="Ремонт технологического оборудования" OsColumn="М"/>
+		<Vid_Rab ID="10482" Caption="Ремонт металлоконструкций" OsColumn="М"/>
+		<Vid_Rab ID="10483" Caption="Ремонт трубчатых печей" OsColumn="М"/>
+		<Vid_Rab ID="11106" Caption="Ремонт вентиляционного оборудования" OsColumn="М"/>
+		<Vid_Rab ID="11228" Caption="Строительно-монтажные работы" OsColumn="М"/>		
+		<Vid_Rab ID="10486" Caption="Футеровочные и изоляционные работы"/>
+		<Vid_Rab ID="10484" Caption="Чистка канализационных систем"/>
+		<Vid_Rab ID="10485" Caption="Обслуживание и ремонт средств технологического контроля" OsColumn="П"/>
+		<Vid_Rab ID="10487" Caption="Обслуживание и ремонт средств технологического контроля" OsColumn="П"/>
+		<Vid_Rab ID="10488" Caption="Обслуживание и ремонт АСУ ТП" OsColumn="П"/>
+		<Vid_Rab ID="10489" Caption="Обслуживание и ремонт АСУ ТП" OsColumn="П"/>
+		<Vid_Rab ID="10490" Caption="Обслуживание и ремонт АСУ ТП" OsColumn="П"/>
+		<Vid_Rab ID="10491" Caption="Обслуживание и ремонт АСУ ТП" OsColumn="П"/>
+		<Vid_Rab ID="10492" Caption="Обслуживание и ремонт АСУП" OsColumn="П"/>
+		<Vid_Rab ID="11017" Caption="Антикоррозионная защита"/>
+	</VidRab_Group>
+
+	<VidRab_Group Caption="Содержание и текущий ремонт жилищного фонда" ID="1078">
+		<Vid_Rab ID="10505" Caption="Содержание и текущий ремонт жилых зданий (Кемеровская обл.)" OsColumn="П"/>
+		<Vid_Rab ID="10506" Caption="Ремонт инженерного оборудования жилых зданий (Кемеровская обл.)" OsColumn="П"/>
+		<Vid_Rab ID="10537" Caption="Техническое обслуживание и текущий ремонт общего имущества многоквартирных домов (Челябинская обл.)" OsColumn="П"/>
+		<Vid_Rab ID="10538" Caption="Санитарное содержание общего имущества многоквартирных домов, включая уборку придомовой территории (Челябинская обл.)" OsColumn="П"/>
+	</VidRab_Group>
+        <VidRab_Group Caption="ОАО РЖД" ID="1042">
+		<Vid_Rab ID="10493" Caption="Искусственные сооружения. Мосты железнодорожные"/>
+		<Vid_Rab ID="11052" Caption="Искусственные сооружения. Тоннели железнодорожные"/>
+		<Vid_Rab ID="10494" Caption="Энергетическое хозяйство"/>
+		<Vid_Rab ID="10554" Caption="Земляное полотно"/>
+		<Vid_Rab ID="11253" Caption="Верхнее строение пути"/>
+		<Vid_Rab ID="11049" Caption="Сервисное обслуживание технологического и инженерного оборудования"/>
+	</VidRab_Group>
+
+</Vids_Rab>

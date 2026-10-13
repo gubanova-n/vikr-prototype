@@ -1,0 +1,23 @@
+/* One scrollbar standard for the shell and both embedded reference modules. */
+*{scrollbar-color:auto;scrollbar-width:auto}
+*::-webkit-scrollbar{width:12px;height:12px}
+*::-webkit-scrollbar-track{background:#edf3f6}
+*::-webkit-scrollbar-thumb{background:#8daab9;border:3px solid #edf3f6;border-radius:10px}
+*::-webkit-scrollbar-thumb:hover{background:#607f90}
+*::-webkit-scrollbar-corner{background:#edf3f6}
+html[data-theme="dark"] *::-webkit-scrollbar-track,html[data-theme="dark"] *::-webkit-scrollbar-corner{background:#142129}
+html[data-theme="dark"] *::-webkit-scrollbar-thumb{background:#557384;border-color:#142129}
+.base-tree-line{padding-left:calc(var(--level,0)*12px);gap:2px}
+.base-tree-line .tree-node{padding-left:3px;gap:5px}
+.base-tree-line .tree-toggle{width:24px;padding:0;color:var(--navy);font-size:12px;font-weight:400}
+.base-tree-line .tree-toggle:disabled{visibility:hidden}
+.base-tree-line .tree-node>span:last-child{white-space:normal;overflow-wrap:anywhere;line-height:1.35}
+.base-tree-line .tree-node .glyph{width:23px;height:23px}
+.tree-row{gap:5px}
+.excel-export-overlay{z-index:100}
+.excel-export-dialog{width:min(760px,calc(100vw - 32px));max-height:calc(100vh - 40px)}
+.excel-export-stats{display:flex;gap:20px;align-items:center;padding:12px 0;color:var(--navy)}
+.excel-export-notices{font-size:.75rem;color:var(--muted);line-height:1.55;margin:10px 0}
+.excel-export-status{font-size:.75rem;margin-top:12px;line-height:1.5}
+.drawer-actions{flex-wrap:wrap}
+.workspace-tool.export-tool{width:auto;padding:0 11px;font-size:.72rem;color:var(--navy)}

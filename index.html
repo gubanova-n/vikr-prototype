@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#184763">
+  <title>ВИКР — прототип 5.15</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23184763'/%3E%3Cpath d='M16 19h32v6H16zm0 11h25v6H16zm0 11h32v6H16z' fill='white'/%3E%3Cpath d='M44 30h4v6h-4z' fill='%23f2a64c'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="modules/shared/ui.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="rail">
+      <div class="logo"><span class="logo-mark">≡</span><span><b>ВИКР</b><small>Рабочее пространство</small></span></div>
+      <nav aria-label="Разделы">
+        <div class="nav-group"><button class="nav active" id="nav-base" data-space="base"><span class="nav-plus">+</span>База</button><div class="nav-object-list hidden" id="base-object-list"></div></div>
+        <div class="nav-object-list hidden" id="work-object-list" aria-hidden="true"></div>
+        <button class="nav" id="nav-settings"><span>⚙</span>Настройки</button>
+      </nav>
+      <div class="rail-object"><small>ОБЪЕКТ БАЗЫ</small><strong id="rail-object-name">Объект не выбран</strong></div>
+      <div class="rail-foot">ПРОТОТИП 5.15 <span>·</span> ЦЕНЫ И КОЭФФИЦИЕНТЫ</div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><div><h1 id="page-title">База ВИКР</h1></div><div class="top-actions" id="top-actions"></div></header>
+      <section class="space" id="space-base" aria-label="База ВИКР">
+        <div class="toolbar"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Код, часть слова, ГЭСН или ресурс"></label><div class="workspace-tools" id="workspace-tools" role="toolbar" aria-label="Инструменты Базы"></div><button class="outline" id="advanced-toggle">Расширенный поиск</button></div>
+        <div class="advanced-search hidden" id="advanced-search"><label class="field"><span>Вид работ</span><input id="filter-work" list="work-types" placeholder="Название ВИКР или часть слова"><datalist id="work-types"></datalist></label><label class="field"><span>Конструктив</span><select id="filter-kr"><option value="">Все конструктивы</option></select></label><label class="field"><span>Марка</span><select id="filter-mark"><option value="">Все марки</option></select></label><label class="field"><span>Единица измерения</span><select id="filter-unit"><option value="">Все единицы</option></select></label><button class="quiet" id="filters-reset">Сбросить фильтры</button></div>
+        <div class="columns">
+          <aside class="pane tree-pane" aria-label="Дерево базы"><div class="pane-title"><button class="quiet" id="choose-object">Изменить структуру</button></div><div id="base-tree"></div></aside>
+          <section class="pane list-pane"><div class="pane-title"><div><h2 id="list-title">Состав объекта</h2><small id="list-subtitle"></small></div><button class="outline hidden" id="base-level-back">Назад</button></div><div class="base-mode-row"><div class="mode-group"><span>Расчёт</span><div class="seg" id="base-mode"><button data-mode="full" class="active">На объём</button><button data-mode="unit">На 1 ед.</button></div></div><div class="mode-group"><div class="seg" id="base-view"></div></div></div><div class="table-scroll" tabindex="0" aria-label="Состав выбранного уровня"><table class="rows"><thead><tr><th class="check"><input type="checkbox" id="table-select-all" aria-label="Выбрать все элементы списка"></th><th>Код / тип</th><th>Наименование</th><th>Место</th><th class="right">Рабочие<small>чел.-ч</small></th><th class="right">Машинисты<small>чел.-ч</small></th><th class="right">Машины и механизмы<small>маш.-ч</small></th><th class="right">Объём</th><th>Ед.</th><th class="row-tools-head"></th></tr></thead><tbody id="base-rows"></tbody><tfoot id="base-totals"></tfoot></table><div class="empty hidden" id="base-empty">Ничего не найдено. Измените запрос или фильтры.</div></div></section>
+          <aside class="pane detail-pane"><div id="base-detail"></div></aside>
+        </div>
+      </section>
+      <section class="space hidden" id="space-work" aria-label="Рабочий объект"><div class="toolbar"><label class="search"><span aria-hidden="true">⌕</span><input id="work-search" type="search" placeholder="Код, часть слова, ГЭСН или ресурс" aria-label="Поиск в рабочем объекте"></label><button class="outline" id="work-advanced-toggle" aria-expanded="false" aria-controls="work-advanced-search">Расширенный поиск</button></div><div class="advanced-search hidden" id="work-advanced-search"><label class="field"><span>Вид работ</span><input id="work-filter-type" list="work-work-types" placeholder="Название ВИКР или часть слова"><datalist id="work-work-types"></datalist></label><label class="field"><span>Конструктив</span><select id="work-filter-kr"><option value="">Все конструктивы</option></select></label><label class="field"><span>Марка</span><select id="work-filter-mark"><option value="">Все марки</option></select></label><label class="field"><span>Единица измерения</span><select id="work-filter-unit"><option value="">Все единицы</option></select></label><button class="quiet" id="work-filters-reset">Сбросить фильтры</button></div><div class="columns work-columns"><aside class="pane tree-pane" aria-label="Дерево рабочего объекта"><div class="pane-title"><button class="quiet" id="choose-work-object">Изменить структуру</button></div><div id="work-tree"></div></aside><section class="pane list-pane work-pane" id="work-main"></section><aside class="pane detail-pane side-pane" id="work-side"></aside></div></section>
+    </main>
+  </div>
+  <div class="drawer hidden" id="selection-drawer"><div class="drawer-head"><strong id="selection-title">Выбрано <span id="selected-count">0</span> ВИКР</strong><button class="close" id="clear-selection" aria-label="Очистить выбор">×</button></div><div id="selection-summary"></div><div class="drawer-actions"><button class="outline" id="compare-selection">Сравнить</button><button class="primary" id="transfer-selection">Добавить в объект</button></div></div>
+  <div class="drawer hidden" id="work-selection-drawer"><div class="drawer-head"><strong>Выбрано <span id="work-selected-count">0</span> ВИКР</strong><button class="close" id="work-clear-selection" aria-label="Очистить выбор">×</button></div><div class="drawer-actions"><button class="outline" id="work-move-selection">Переместить</button><button class="danger-btn" id="work-delete-selection">Удалить</button></div></div>
+  <div class="overlay hidden" id="overlay"><div class="dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title"><button class="close dialog-close" id="dialog-close" aria-label="Закрыть">×</button><div id="dialog-body"></div></div></div>
+  <div class="module-host hidden" id="module-host">
+    <div class="module-host-head"><div><strong id="module-host-title">Нормативная база</strong><small id="module-host-context">Выбор данных для текущего уровня</small></div><button class="close" id="module-host-close" aria-label="Закрыть модуль">×</button></div>
+    <div class="module-loading" id="module-loading" role="status">Загрузка справочника…</div>
+    <iframe id="module-frame" title="Встроенный модуль" loading="eager"></iframe>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="quantities.js"></script>
+  <script src="calc.js"></script>
+  <script src="object-files.js"></script>
+  <script src="workspace-transfer.js"></script>
+  <script src="structure-features.js"></script>
+  <script src="source-selection.js"></script>
+  <script src="source-tree.js"></script>
+  <script src="transfer-dialog.js"></script>
+  <script src="fsnb-works.js"></script>
+  <script src="coefficient-match.js"></script>
+  <script src="modules/excel/vendor/jszip.min.js"></script>
+  <script src="modules/excel/template.js"></script>
+  <script src="modules/excel/cost-data.js"></script>
+  <script src="modules/excel/cost-catalog-data.js"></script>
+  <script src="modules/excel/cost-catalogs.js"></script>
+  <script src="modules/prices/worker-code.js"></script>
+  <script src="modules/prices/split.js"></script>
+  <script src="modules/prices/object-pricing.js"></script>
+  <script src="modules/excel/costs.js"></script>
+  <script src="modules/excel/cost-sheet.js"></script>
+  <script src="modules/excel/export.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+
